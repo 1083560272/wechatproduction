@@ -1,0 +1,54 @@
+##来源于B站视频教程
+
+##spring boot & vue 进行前后端分离项目搭建
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="main">
+        <h1>
+            前后端分离
+        </h1>
+        <p>
+            前后端分离就是将一个应用的前端代码与后端代码分开写，为什么要这么做？
+        </p>
+        <p>
+            如果不使用前后端分离的方式，会有那些问题？
+        </p>
+        <p>
+            传统的java web开发中，前端使用JSP开发，JSP不是由后端开发者独立完成的。
+            前端>> HTML静态页面 >> 后端 >> JSP  
+        </p>
+        <p>
+            这种开发方式效率极低，可以使用前后端分离的方式进行开发。
+        </p>
+        <p>
+            前端只需要独立编写客户端代码，后端也只需要独立编写服务端代码提供数据接口即可。
+        </p>
+        <p>
+            前端通过Ajax请求访问后端的数据接口，将model展示到view中即可。   
+        </p>
+        <p>
+            前后端开发者只需要提前约定好接口文档（URL、参数、数据类型...），然后分别独立开发即可，前端可以造假数据进行测试，
+            完全不需要依赖于后端，最后完成前后端集成即可，真正实现了前后端应用的解耦合，极大地提升了开发效率。
+        </p>
+        <p>
+            单体 >> 前端应用+后端应用
+            前端应用：负责数据展示和用户交互
+            后端应用：负责提供数据处理接口
+        </p>
+        <h6>
+            传统的单体应用
+        </h6>
+        <p>
+            
+        </p>
+    </div>
+</body>
+</html>
